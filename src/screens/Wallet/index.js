@@ -96,7 +96,7 @@ export default function Wallet() {
       </UseBalance>
 
       <PaymentMethods>
-        <PaymentMethodsTitle>Forma de pagamento</PaymentMethodsTitle>
+        <PaymentMethodsTitle>Formas de pagamento</PaymentMethodsTitle>
       </PaymentMethods>
 
       <Card>
@@ -113,7 +113,7 @@ export default function Wallet() {
         </CardBody>
 
         <AddButton>
-          <AntDesign name="pluscircleo" size={30} color="#0db060" />
+          <AntDesign name="pluscircleo" size={30} color="#0db060" style={{marginLeft: 25}}/>
           <AddLabel>Adicionar cartão de crédito</AddLabel>
         </AddButton>
       </Card>

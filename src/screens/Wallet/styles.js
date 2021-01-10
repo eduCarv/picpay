@@ -3,7 +3,7 @@ import styled from "styled-components/native";
 import { LinearGradient } from "expo-linear-gradient";
 
 export const Wrapper = styled.View`
-  background: #000;
+  background: #1e222b;
   flex: 1;
 `;
 
@@ -92,8 +92,7 @@ export const PaymentMethods = styled.View`
 `;
 
 export const PaymentMethodsTitle = styled.Text`
-  color: #8e8e93;
-  text-transform: uppercase;
+  color: #8e8e93;  
 `;
 
 export const Card = styled.View`
@@ -132,6 +131,9 @@ export const AddButton = styled.TouchableOpacity`
     flex-direction: row;
     align-items: center;
     margin-top: 25px;
+    height: 100px;
+    border-radius: 10px;
+    background: #1b1b1b;    
 `;
 
 export const AddLabel = styled.Text`
@@ -143,7 +145,7 @@ export const AddLabel = styled.Text`
 
 export const UseTicketContainer = styled.View`
     align-items: center;    
-    margin-top: 25px;
+    margin-top: 10px;
 `;
 
 export const UseTicketButton = styled.TouchableOpacity`

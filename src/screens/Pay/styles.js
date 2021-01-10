@@ -28,11 +28,11 @@ export const ScreenTitle = styled.Text`
 export const Card = styled.TouchableOpacity`
   height: 80px;
   width: 350px;
-  border-radius: 20px;
+  border-radius: 15px;
   align-items: flex-start;
   justify-content: center;
   padding: 10px;
-  margin-left: 25px;
+  margin-left: 20px;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
@@ -53,13 +53,14 @@ export const CardDescription = styled.Text`
   color: rgba(255, 255, 255, 0.7);
 `;
 
-export const MapContainer = styled.View`
+export const MapContainer = styled.TouchableOpacity`
   height: 200px;
   width: 90%;
   align-self: center;
   align-items: flex-start;
   border-radius: 15px;
   margin-top: 20px;  
+  position: relative;
 `;
 
 export const MapCard = styled.TouchableOpacity`
@@ -71,8 +72,11 @@ export const MapCard = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  background-color: rgba(27, 27, 27, 0.1);
+  background-color: #1b1b1b;
+  opacity: 0.9;
   position: absolute;
+  border-radius: 12px;
+  margin-top: 15px;
 `;
 
 export const MapTextContainer = styled.View`
@@ -92,5 +96,5 @@ export const MapCardDescription = styled.Text`
 
 export const MapImg = styled.Image`
 width: 100%;
-border-radius: 5px;
+  border-radius: 5px;
 `;

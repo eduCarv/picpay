@@ -1,6 +1,6 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { AntDesign, Ionicons } from '@expo/vector-icons';
+import { AntDesign, Ionicons, Feather } from '@expo/vector-icons';
 
 import PayButton from './components/PayButton';
 
@@ -23,9 +23,9 @@ const icons = {
     lib: Ionicons,
     name: 'ios-notifications-outline',
   },
-  Settings: {
-    lib: AntDesign,
-    name: 'setting',
+  Store: {
+    lib: Feather,
+    name: 'shopping-bag',
   },
 };
 
@@ -87,10 +87,10 @@ export default function Navigation() {
         }}
       />
       <Tab.Screen
-        name="Settings"
+        name="Store"
         component={PayScreen}
         options={{
-          title: 'Ajustes',
+          title: 'Store',
         }}
       />
     </Tab.Navigator>

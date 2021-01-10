@@ -12,10 +12,12 @@ export const Header = styled.View`
     padding: 0 16px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
 `;
 
-export const BalanceContainer = styled.View``; 
+export const BalanceContainer = styled.View`
+    margin-left: 60px;    
+`; 
 
 export const BalanceTitle = styled.Text`
     color: rgba(255, 255, 255, 0.8);
@@ -28,4 +30,11 @@ export const Balance = styled.Text`
     text-align: center;
     font-size: 20px;
     font-weight: bold;
+`;
+
+export const QrCodeContainer = styled.TouchableOpacity`
+    margin-left: 10px;
+`;
+export const SettingContainer = styled.TouchableOpacity`
+    margin-left: 15px;
 `;

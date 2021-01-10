@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 
 export const Wrapper = styled.SafeAreaView`
-    background: #000;
+    background: #1b1b1b;
     flex: 1;
 `;
 

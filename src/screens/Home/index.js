@@ -41,7 +41,7 @@ export default function Home() {
           </BalanceContainer>
         </Header>
 
-        <SearchBar />
+        <SearchBar text="O que você quer pagar?"/>
 
         <Suggestions />
         <Activities />

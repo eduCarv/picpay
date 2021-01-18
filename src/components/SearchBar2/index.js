@@ -4,7 +4,7 @@ import { Container, InputContainer, BoxButtonSearch, Text } from "./styles";
 
 import { Ionicons } from "@expo/vector-icons";
 
-export default function SearchBar(props) {
+export default function SearchBar2(props) {
   return (
     <Container>
       <InputContainer>

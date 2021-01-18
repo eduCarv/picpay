@@ -1,7 +1,7 @@
 
 ## 🚀 Clone simples da interface do app Picpay
 
-Este app foi feito usando 
+Este clone foi feito usando 
 
 - React Native
 - Styled Components
